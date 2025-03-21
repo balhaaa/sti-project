@@ -3,7 +3,7 @@ body {
     padding-top: 10vh; 
     position: relative;
     background-color: rgba(0, 0, 0, 0.9);
-	background-image: url("/imgs/bg.jpg");
+	background-image: url("bg.jpg");
     background-blend-mode: overlay;
     background-size: cover;
 }
