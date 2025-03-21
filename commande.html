@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/cmd.css">
+    <script src="/jss/calc.js"></script>
+    <title>@yassine x balha</title>
+</head>
+<body style="background-color: rgb(148, 98, 52);">
+    <header>
+        <nav>
+            <div>
+                <a href="home.html"><img src="/imgs/logo.png" class="logo" alt="Logo"></a><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mashawi Beyrouth</p>
+            </div>
+            <ul id="nav">
+                <li class="a"><a href="home.html">Home</a></li>
+                <li class="a"><a href="about.html">About us</a></li>
+                <li class="a"><a href="menu.html">Menu</a></li>
+                <li class="a"><a href="commande.html">Online Ordre</a></li>
+            </ul>
+            <ul id="log">
+                <li class="a"><a href="login.html">login</a></li>
+                <li class="a"><a href="signup.html">Signup</a></li>
+            </ul>
+        </nav>
+        <h2>Restaurant Online Order</h2>
+
+        <form action="home.html" id="orderForm">
+            <label style="font-size: larger;">Food:</label><br>
+            <label>Machawi (35 DT):</label>
+            <input type="number" id="machawi" value="0" min="0"><br>
+    
+            <label>Little Machawi (20 DT):</label>
+            <input type="number" id="littleMachawi" value="0" min="0"><br>
+    
+            <label>Half Roast Chicken (14 DT):</label>
+            <input type="number" id="halfChicken" value="0" min="0"><br>
+    
+            <label>Chich Taouk (14 DT):</label>
+            <input type="number" id="chichTaouk" value="0" min="0"><br>
+    
+            <label>Kebab (14 DT):</label>
+            <input type="number" id="kebab" value="0" min="0"><br>
+    
+            <label>Roast Lamb (25 DT):</label>
+            <input type="number" id="roastLamb" value="0" min="0"><br>
+            <label style="font-size: larger;">Drink:</label><br>
+            <label>Water (1 DT):</label>
+            <input type="number" id="water" value="0" min="0"><br>
+            <label>Pepsi (5 DT):</label>
+            <input type="number" id="pepsi" value="0" min="0"><br>
+            <label>Coca Cola (2.5 DT):</label>
+            <input type="number" id="coca" value="0" min="0"><br>
+            <label>Fanta (2 DT):</label>
+            <input type="number" id="fanta" value="0" min="0"><br>
+    
+            <button type="button" onclick="calcul()">Calculate Total</button>
+            <button type="button" onclick="place()">Order Now</button>
+        <button type="button" onclick="cancel()" class="cancel">Cancel Order</button>
+        </form>
+    
+        <h3>Total Price: <span id="totalPrice">0</span> DT</h3>
+    
+    </body>
+    </html>
+    </header>

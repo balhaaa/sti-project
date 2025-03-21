@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/signup.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="logo"><img id="logo" src="imgs/logo.png"> <a id="top" href="home.html"><h4>Mashawi Beyrouth</h4></a></div>
+    <div class="login">
+        <h3>Sign Up</h3>
+        <form action="login.html" onsubmit="return valid()">
+            <label>Full Name:</label><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name"><br>
+            <label>Email Address:</label><br><br>
+            <input type="email" id="e" name="email" placeholder="Enter your email"><br>
+            <label>Password:</label><br><br>
+            <input type="password" id="p" name="password" placeholder="Enter your password"><br>
+            <label>Confirm Password:</label><br><br>
+            <input type="password" id="cp" name="confirm_password" placeholder="Confirm your password"><br>
+            <input type="checkbox" id="check">I agree to the terms and conditions<br><br>
+            <input type="submit" id="btn" value="Sign Up"><br><br>
+            <p>Already have an account?</p><a href="login.html">Sign In</a>
+        </form>
+    </div>
+    <script src="/jss/indexup.js"></script>
+</body>
+</html>
+

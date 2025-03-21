@@ -1,0 +1,108 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: url(/imgs/subg.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+}
+.logo h4 {
+    position: fixed;
+    font-size: larger;
+    top: 1px;
+    left: 1px;
+    margin-left: 105px;
+    margin-top: 40px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    left: 1px;
+    top: 1px;
+    color: whitesmoke;
+}
+
+.login {
+    font-family: font;
+    width: 42vh;
+    height: 67vh;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.login h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    
+}
+input {
+    padding: 13px;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+p, a {
+    display: inline;
+    margin: 0;
+    margin-right: 5px;
+    
+}
+label {
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+#name, #e, #p, #cp {
+    width: 38vh;
+    margin-bottom: 20px;
+}
+#btn {
+    width: 40vh;
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a {
+    color: rgb(0, 109, 241);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a::after {
+    color: rgb(0, 109, 241);
+}
+#check {
+    margin-top: 0;
+    margin-right: 5px;
+    padding-top: 0;
+    accent-color: rgb(0, 0, 0);
+}
+#top{
+    color: black;
+}
+#top:hover{
+   color: white;
+}

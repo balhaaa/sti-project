@@ -1,0 +1,51 @@
+fieldset{
+	background-color: rgba(0,0,0,0.42);
+	border-radius: 6px;
+	border: none;
+}
+body{
+  margin-bottom: 50px;
+}
+td{
+	font-size: 30px;
+	padding: 5px;
+	text-shadow: 2px 2px 3px #000000;
+	color: #B22222;
+}
+#titre{
+	width: auto;
+}
+button {
+  background-color: #B22222;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-family: "Bebas Neue";
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fd6060;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+#cmd{
+    text-decoration: none;
+    color: #000;
+}
+.kol{
+  text-align: right;
+
+}
+div{
+  display: inline-block;
+}
+#djej{
+  width: 500px;
+  height: 400px;
+}
+img:hover{
+  transform: scale(0.5);
+}

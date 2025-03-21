@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>Sign-in</title>
+</head>
+<body>
+    <nav class="logo">
+        <img id="logo" src="imgs/logo.png" alt="logo"><a id="top" href="home.html"><h4>Meshawi Beyrouth</h4></a>
+    </nav>
+    <div class="login">
+        <h3>Sign In</h3>
+        <form action="home.html" onsubmit="return verif()">
+            <label>E-mail Address:</label><br><br>
+            <input type="email" id="e" name="" placeholder=" Enter your e-mail"><br>
+            <label id="">Password:</label> <br><br>
+            <input type="password" id="p" name="" placeholder="Enter your password">
+            <input type="checkbox" id="check">Remember me?<br><br>
+            <input type="submit" id="btn" value="Sign in"><br><br>
+            <p>Don't have an account yet?</p><a href="signup.html">Sign Up</a>
+        </form>
+    </div>
+    <script src="/jss/index.js"></script>
+</body>
+</html>
